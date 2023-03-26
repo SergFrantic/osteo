@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/osteo/static/css/main.e7926719.css",
+    "main.js": "/osteo/static/js/main.e4cd267d.js",
+    "static/media/first_level.png": "/osteo/static/media/first_level.0073e15445bc6b76f3ea.png",
+    "static/media/first_level_mini.png": "/osteo/static/media/first_level_mini.306d6a5aca3e2669aeca.png",
+    "static/media/about.jpg": "/osteo/static/media/about.93849129e065a0bb7fdf.jpg",
+    "static/media/instagram.png": "/osteo/static/media/instagram.0849ea09934f4bfca041.png",
+    "static/media/whatsapp.png": "/osteo/static/media/whatsapp.a1ddc95eec027b6652e9.png",
+    "static/media/Ecaterina_Yoga.jpg": "/osteo/static/media/Ecaterina_Yoga.15cb9de224219e181eb0.jpg",
+    "static/media/Yuliya.jpg": "/osteo/static/media/Yuliya.52b0c91cfd0e652010d9.jpg",
+    "static/media/Antonina.jpg": "/osteo/static/media/Antonina.f14003d3e6ef602f024d.jpg",
+    "static/media/Vika.jpg": "/osteo/static/media/Vika.88ff9fd903b0d4e4ae6d.jpg",
+    "static/media/kranos.jpg": "/osteo/static/media/kranos.35297e212e14801c1a8c.jpg",
+    "static/media/Olga.jpg": "/osteo/static/media/Olga.1037012f2b2957dc41ef.jpg",
+    "static/media/Irina.jpg": "/osteo/static/media/Irina.7247bbc7aedb9e7a16b3.jpg",
+    "static/media/user.jpg": "/osteo/static/media/user.7b88465027afc9219ac9.jpg",
+    "static/media/children.avif": "/osteo/static/media/children.3f245f1544df2da82a7c.avif",
+    "static/media/Valeriy.jpg": "/osteo/static/media/Valeriy.5ef6476cf675b9f1bc5c.jpg",
+    "static/media/Nataliya.jpg": "/osteo/static/media/Nataliya.faa1245928ae567b2cd6.jpg",
+    "static/media/Irina_2.jpg": "/osteo/static/media/Irina_2.66ea4d48666b022e423d.jpg",
+    "static/media/Point.jpg": "/osteo/static/media/Point.600ace22849ca4fc1994.jpg",
+    "static/media/Ivan.jpg": "/osteo/static/media/Ivan.233ec802deda0e498f91.jpg",
+    "static/media/logo.png": "/osteo/static/media/logo.d857bb128adc5acbe670.png",
+    "static/media/pregnancy.jpg": "/osteo/static/media/pregnancy.35c0f11ca550a6c8d378.jpg",
+    "index.html": "/osteo/index.html",
+    "main.e7926719.css.map": "/osteo/static/css/main.e7926719.css.map",
+    "main.e4cd267d.js.map": "/osteo/static/js/main.e4cd267d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7926719.css",
+    "static/js/main.e4cd267d.js"
+  ]
+}
