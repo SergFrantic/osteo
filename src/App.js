@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/price" element={<Price />} />
         <Route path="/feedbacks" element={<Feedbacks />} />
-        <Route path="/test" element={<Test />} />
+        {/* <Route path="/test" element={<Test />} /> */}
       </Routes>
       <Footer setActiveNav={setActiveNav} />
     </div>

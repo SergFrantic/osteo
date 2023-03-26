@@ -27,11 +27,11 @@ function Navlist({ linkHandler, activeNav }) {
           ОТЗЫВЫ
         </span>
       </Link>
-      <Link to="/test" onClick={() => linkHandler("test")}>
+      {/* <Link to="/test" onClick={() => linkHandler("test")}>
         <span className={activeNav === "test" ? styles.active_nav : null}>
           Test
         </span>
-      </Link>
+      </Link> */}
     </>
   );
 }
