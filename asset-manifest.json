@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/osteo/static/css/main.94579628.css",
-    "main.js": "/osteo/static/js/main.8e1067be.js",
+    "main.js": "/osteo/static/js/main.09326bae.js",
     "static/media/first_level.png": "/osteo/static/media/first_level.0073e15445bc6b76f3ea.png",
     "static/media/first_level_mini.png": "/osteo/static/media/first_level_mini.306d6a5aca3e2669aeca.png",
     "static/media/about.jpg": "/osteo/static/media/about.93849129e065a0bb7fdf.jpg",
@@ -25,10 +25,10 @@
     "static/media/pregnancy.jpg": "/osteo/static/media/pregnancy.35c0f11ca550a6c8d378.jpg",
     "index.html": "/osteo/index.html",
     "main.94579628.css.map": "/osteo/static/css/main.94579628.css.map",
-    "main.8e1067be.js.map": "/osteo/static/js/main.8e1067be.js.map"
+    "main.09326bae.js.map": "/osteo/static/js/main.09326bae.js.map"
   },
   "entrypoints": [
     "static/css/main.94579628.css",
-    "static/js/main.8e1067be.js"
+    "static/js/main.09326bae.js"
   ]
 }
