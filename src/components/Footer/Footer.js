@@ -52,7 +52,7 @@ function Footer({setActiveNav}) {
               />
             </a>
 
-            <a target="_blank" href="https://t.me/Serg21Kalinin" rel="noreferrer">
+            <a target="_blank" href="https://t.me/osteopatalex80" rel="noreferrer">
               <img
                 src={require("./images/tg.png")}
                 style={{ width: "2.7em" }}
@@ -66,16 +66,16 @@ function Footer({setActiveNav}) {
           <div className={styles.contact_footer}>
             <div className={styles.phone_container}>
               <span>Алексей:</span>
-              <a href="tel:+15551234567">+7 (962) 976-7267</a>
+              <a href="tel:+7962976726">+7 (962) 976-7267</a>
             </div>
           </div>
           <div className={styles.phone_container}>
             <span>Мария:</span>
-            <a href="tel:+15551234567">+7 (915) 039-8314</a>
+            <a href="tel:+79150398314">+7 (915) 039-8314</a>
           </div>
           <div className={styles.email_container}>
             <span>e-mail:</span>
-            <a href="mailto:nat29011985@yandex.ru">nat29011985@yandex.ru</a>
+            <a href="mailto:ivan1977@bk.ru">ivan1977@bk.ru</a>
           </div>
         </div>
       </div>

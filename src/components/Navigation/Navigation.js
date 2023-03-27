@@ -17,7 +17,7 @@ function Navigation({ activeNav, setActiveNav }) {
   return (
     <header>
       <nav className={styles.navbar}>
-        <Link to="/" onClick={() => setActiveNav("home")}>
+        <Link to="/osteo" onClick={() => setActiveNav("home")}>
           <img src={logo} alt="..." />
         </Link>
 

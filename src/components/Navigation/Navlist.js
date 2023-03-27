@@ -4,7 +4,7 @@ import styles from "./style.module.css";
 function Navlist({ linkHandler, activeNav }) {
   return (
     <>
-      <Link to="/" onClick={() => linkHandler("home")}>
+      <Link to="/osteo" onClick={() => linkHandler("home")}>
         <span className={activeNav === "home" ? styles.active_nav : null}>
           ГЛАВНАЯ
         </span>

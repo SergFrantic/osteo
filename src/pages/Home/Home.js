@@ -12,14 +12,14 @@ function Home() {
 
   const gotoServices = () =>
     window.scrollTo({
-      top: ServicesRef.current.offsetTop -60,
+      top: ServicesRef.current.offsetTop - 60,
       behavior: "smooth",
       // Для прокрутки нужно утановить модуль
       // npm install --save styled-components
       // You can also assign value "auto"
       // to the behavior parameter.
     });
-    
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -58,7 +58,7 @@ function Home() {
           </h2>
         </div>
         <div className={styles.button_container} onClick={gotoServices}>
-          <div className={styles.arrow_8} ></div>
+          <div className={styles.arrow_8}></div>
         </div>
       </div>
 
@@ -68,49 +68,6 @@ function Home() {
         </div>
         <div className={styles.body_second_level_container}>
           <div className={styles.left_container}>
-            {/* <div className={styles.left_border_container}>
-              <div className={styles.body_slider_container}>
-                <div
-                  className={styles.slider_container}
-                  style={{
-                    backgroundImage: `url(${require(`../../data/photo/${info[numberSlider].img}`)})`,
-                  }}
-                >
-                  <button className={styles.prev} onClick={() => decrement()}>
-                    &#10094;
-                  </button>
-
-                  <div className={styles.title_number_container}>
-                    <div className={styles.title_slider_container}>
-                      {info[numberSlider].name}
-                    </div>
-                    <div className={styles.number_slider_container}>
-                      {info[numberSlider].id} / 3
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.text_container}>
-                  <button className={styles.next} onClick={() => increment()}>
-                    &#10095;
-                  </button>
-                  <p className={styles.fade_in}>{info[numberSlider].text}</p>
-                </div>
-              </div>
-              <div className={styles.dot_container}>
-                <span
-                  className={numberSlider === 0 ? styles.active : styles.dot}
-                  onClick={() => setNumberSlider(0)}
-                ></span>
-                <span
-                  className={numberSlider === 1 ? styles.active : styles.dot}
-                  onClick={() => setNumberSlider(1)}
-                ></span>
-                <span
-                  className={numberSlider === 2 ? styles.active : styles.dot}
-                  onClick={() => setNumberSlider(2)}
-                ></span>
-              </div>
-            </div> */}
             <Slider
               info={info}
               increment={increment}
@@ -124,13 +81,13 @@ function Home() {
             <h4>Что такое остеопатия.</h4>
             <p>
               Это мягкий, безболезненный метод диагностики и лечения организма,
-              где единственные инструменты специалисты, его знания, опыт и руки.
+              где единственные инструменты - специалист, его знания, опыт и руки.
               В остеопатии применяется тотальное слушание тела, тканей и
-              органов. Очень важно их дыхание и движение. Бывает, что какая то
+              органов. Очень важно их дыхание и движение. Бывает, что какая-то
               эмоция зашкаливает и мозг не справляется, импульс переходит в тело
               и тогда возникает психосоматика. Суть остеопатии - снять
-              напряжение не только в каждом органе, но в нашей голове, и вернуть
-              здоровье каждой клеточке нашего организма.
+              напряжение не только в каждом органе, но и в нашей голове, и вернуть
+              здоровье каждой клеточке организма.
             </p>
           </div>
         </div>
