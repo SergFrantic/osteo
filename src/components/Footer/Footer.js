@@ -66,7 +66,7 @@ function Footer({setActiveNav}) {
           <div className={styles.contact_footer}>
             <div className={styles.phone_container}>
               <span>Алексей:</span>
-              <a href="tel:+7962976726">+7 (962) 976-7267</a>
+              <a href="tel:+79629767267">+7 (962) 976-7267</a>
             </div>
           </div>
           <div className={styles.phone_container}>
