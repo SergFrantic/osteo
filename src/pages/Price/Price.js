@@ -9,7 +9,7 @@ function Price() {
     <div className={styles.price_container}>
       <div className={styles.price_border_container}>
         <div className={styles.osteo_container}>
-          <h3>Остеопатический приём</h3>
+          <h2>Остеопатический приём</h2>
           <table>
             <thead>
                 <tr>
@@ -43,7 +43,7 @@ function Price() {
           </p>
         </div>
         <div className={styles.massage_container}>
-          <h3>Массаж</h3>
+          <h2>Массаж</h2>
           <table>
             <thead>
                 <tr>

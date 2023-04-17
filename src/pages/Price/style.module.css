@@ -46,7 +46,11 @@ td {
   padding: 0.5em;
   border: 0.08em solid #166094;
 }
-
+@media (max-width: 1367px) {
+  .price_container {
+    height: 100%;
+  }
+}
 @media (max-width: 960px) {
   .price_container {
     font-size: 1.4em;
@@ -114,10 +118,5 @@ td {
 @media (max-width: 350px) {
   .price_container {
     font-size: 0.6em;
-  }
-}
-@media (max-height: 600px) {
-  .price_container {
-    height: 600px;
   }
 }

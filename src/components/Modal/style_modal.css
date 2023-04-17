@@ -7,7 +7,7 @@
   left: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   opacity: 0;
   pointer-events: none;
   transition: 0.7s;
@@ -19,14 +19,16 @@
 }
 
 .content-container {
-  height: 50%;
-  width: auto;
+  max-height: 50vh;
+  max-width: 70vh;
   transform: scale(0.5);
   transition: 0.7s all;
 }
 .content-container > img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 95%;
+  max-width: 50vh;
+  padding: 0 1em 0 1em;
 }
 .content-active-container {
   transform: scale(1);

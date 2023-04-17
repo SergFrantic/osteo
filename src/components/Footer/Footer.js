@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import styles from "./style.module.css";
 
-function Footer({setActiveNav}) {
+function Footer({ setActiveNav }) {
   return (
     <footer>
       <div className={styles.footer_container}>
@@ -18,7 +18,7 @@ function Footer({setActiveNav}) {
             <Link to="/about" onClick={() => setActiveNav("about")}>
               <span>Обо мне</span>
             </Link>
-            <Link to="/feedbacks"onClick={() => setActiveNav("feedbacks")}>
+            <Link to="/feedbacks" onClick={() => setActiveNav("feedbacks")}>
               <span>Отзывы</span>
             </Link>
           </div>
@@ -28,7 +28,7 @@ function Footer({setActiveNav}) {
           <div className={styles.links_container}>
             <a
               target="_blank"
-              href=" https://wa.me/79629767267?text=Здравствуйте,%20я%20хочу%20записаться%20на%20приём
+              href=" https://wa.me/79150398314?text=Здравствуйте,%20я%20хочу%20записаться%20на%20приём
 
           "
               rel="noreferrer"
@@ -52,7 +52,11 @@ function Footer({setActiveNav}) {
               />
             </a>
 
-            <a target="_blank" href="https://t.me/osteopatalex80" rel="noreferrer">
+            <a
+              target="_blank"
+              href="https://t.me/osteopatalex80"
+              rel="noreferrer"
+            >
               <img
                 src={require("./images/tg.png")}
                 style={{ width: "2.7em" }}
@@ -68,14 +72,14 @@ function Footer({setActiveNav}) {
               <span>Алексей:</span>
               <a href="tel:+79629767267">+7 (962) 976-7267</a>
             </div>
-          </div>
-          <div className={styles.phone_container}>
-            <span>Мария:</span>
-            <a href="tel:+79150398314">+7 (915) 039-8314</a>
-          </div>
-          <div className={styles.email_container}>
-            <span>e-mail:</span>
-            <a href="mailto:ivan1977@bk.ru">ivan1977@bk.ru</a>
+            <div className={styles.phone_container}>
+              <span>Мария:</span>
+              <a href="tel:+79150398314">+7 (915) 039-8314</a>
+            </div>
+            <div className={styles.email_container}>
+              <span>e-mail:</span>
+              <a href="mailto:ivan1977@bk.ru">ivan1977@bk.ru</a>
+            </div>
           </div>
         </div>
       </div>

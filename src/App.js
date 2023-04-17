@@ -7,7 +7,7 @@ import About from "./pages/About/About";
 import Price from "./pages/Price/Price";
 import Feedbacks from "./pages/Feedbacks/Feedbacks";
 import Footer from "./components/Footer/Footer";
-// import Test from "./pages/Test/Test";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
   const [activeNav, setActiveNav] = useState("home")
@@ -20,7 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/price" element={<Price />} />
         <Route path="/feedbacks" element={<Feedbacks />} />
-        {/* <Route path="/test" element={<Test />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer setActiveNav={setActiveNav} />
     </div>

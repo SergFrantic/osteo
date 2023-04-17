@@ -1,0 +1,42 @@
+.notFound-container {
+  min-height: 85vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(250, 250, 250);
+}
+.heading-404 {
+  display: block;
+  font-size: 320px;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #49cddf 10%, #166094 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px;
+}
+.text-404 {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+@media (max-width: 560px) {
+  .notFound-container {
+    font-size: 1em;
+  }
+  .heading-404 {
+    font-size: 220px;
+  }
+}
+@media (max-width: 430px) {
+  .notFound-container {
+    font-size: 0.8em;
+  }
+  .heading-404 {
+    font-size: 120px;
+  }
+}

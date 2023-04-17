@@ -20,7 +20,8 @@
 }
 .greeting_container {
   font-family: "Marck Script";
-  font-size: 2em;
+  font-size: 2.7em;
+  font-weight: bold;
   font-style: italic;
   color: white;
   margin: 1em;
@@ -84,7 +85,7 @@ button {
 .second_level_container {
   grid-column: 1/2;
   grid-row: 2/3;
-  height: 85vh;
+  min-height: 85vh;
 }
 .title_second_level_container {
   text-align: center;
@@ -242,28 +243,26 @@ button {
   padding: 1em;
   font-size: 1.3em;
 }
-.right_container > h4 {
-  text-align: center;
-}
+
 .right_container > p {
   text-indent: 2em;
 }
 /* ------------media-first_level--------------------- */
 @media (max-width: 1150px) {
   .greeting_container {
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin-left: 1.5em;
   }
 }
 @media (max-width: 1050px) {
   .greeting_container {
-    font-size: 1.4em;
+    font-size: 2.2em;
     margin-left: 1.4em;
   }
 }
 @media (max-width: 1000px) {
   .greeting_container {
-    font-size: 1.3em;
+    font-size: 2em;
     margin-left: 1.3em;
   }
 
@@ -276,7 +275,7 @@ button {
 }
 @media (max-width: 900px) {
   .greeting_container {
-    font-size: 1.2em;
+    font-size: 1.8em;
     margin-left: 1.2em;
   }
 
@@ -301,9 +300,15 @@ button {
     background-position: 10%;
   }
 }
+
+@media (max-width: 840px) {
+  .first_level_container {
+    background-position: 30%;
+  }
+}
 @media (max-width: 800px) {
   .greeting_container {
-    font-size: 1.1em;
+    font-size: 1.6em;
     margin-left: 1.1em;
   }
   .arrow_8 {
@@ -312,9 +317,7 @@ button {
     height: 50px;
     margin: 0px auto 25px auto;
   }
-  .first_level_container {
-    background-position: 30%;
-  }
+ 
 }
 @media (max-width: 680px) {
   .first_level_container {
@@ -383,9 +386,7 @@ button {
     padding: 0;
     height: min-content;
   }
-  .right_container > h4 {
-    display: none;
-  }
+
   .title_slider_container {
     font-size: 1.3em;
   }
