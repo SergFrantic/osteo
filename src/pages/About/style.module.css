@@ -202,8 +202,8 @@ h4 {
     background-position: -120px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 640px) {
   .about_container {
-    height: 600px;
+    height: 640px;
   }
 }
