@@ -36,6 +36,7 @@
     justify-content: center;
     align-items: center;
     height: 60%;
+    column-gap: 1em;
   }
   .links_container > a {
     text-decoration: none;

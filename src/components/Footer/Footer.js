@@ -63,6 +63,18 @@ function Footer({ setActiveNav }) {
                 alt="telegram"
               />
             </a>
+
+            <a
+              target="_blank"
+              href="https://vk.com/club211528755"
+              rel="noreferrer"
+            >
+              <img
+                src={require("./images/vk.png")}
+                style={{ width: "3.2em" }}
+                alt="VK"
+              />
+            </a>
           </div>
         </div>
         <div className={styles.right_container_footer}>

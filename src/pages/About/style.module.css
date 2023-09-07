@@ -55,7 +55,7 @@ h4 {
   padding: 1em;
   padding-top: 0;
 }
-@media (max-width: 1435px) {
+@media (max-width: 1500px) {
   .about_container {
     font-size: 1.4em;
   }
@@ -202,8 +202,8 @@ h4 {
     background-position: -120px;
   }
 }
-@media (max-height: 640px) {
+/* @media (max-height: 640px) {
   .about_container {
     height: 640px;
   }
-}
+} */
